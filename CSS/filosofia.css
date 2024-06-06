@@ -1,0 +1,131 @@
+body {
+    font-family: "Alegreya Sans", sans-serif;
+    background-color: #F7D6D0;
+    color: black;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    font-family: "Exo 2", sans-serif;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 2px #8a0538;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4em;
+    text-align: center;
+    width: 100%;
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+nav ul li {
+    font-size: 1.5em;
+    margin: 0 15px;
+}
+
+a {
+    font-family: "Exo 2", sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C40850;
+    cursor: pointer;
+}
+
+h2 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.paragrafo {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer {
+    font-family: "Exo 2", sans-serif;
+    color: black;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: solid 2px #8a0538;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+footer nav ul li {
+    font-size: 1em;
+    margin: 0 15px;
+}
+
+footer h4 {
+    margin: 0 15px 0 0;
+    font-size: 1.2em;
+}
+
